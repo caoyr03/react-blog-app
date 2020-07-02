@@ -5,7 +5,7 @@ Welcome to my simple react app! This repository is for the front end React code.
 To connect to the server locally, you need to set up a proxy that allows for cross-region resource sharing. 
 ```
 npm install -g local-cors-proxy
-lcp --proxyUrl https:localhost:5000
+lcp --proxyUrl http://localhost:5000
 ```
 Open a new terminal, clone this project, in the top of directory, run `npm install` and then `npm start`
 
